@@ -8,7 +8,7 @@ export default function StoredDataList({ data, onClear }) {
         <div className={`${styles.storedDataList}`}>
             <div className={`${styles.storedHeader}`}>
                 <h3>Stored Dialogs:</h3>
-                <Button onClick={onClear} label="Clear Data" className="clearDataBtn" />
+                <Button onClick={onClear}  label="Clear Data" className="close" />
             </div>
             {data.length === 0 ? (
                 <div className={`${styles.noDataContainer}`}>
