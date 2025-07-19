@@ -9,7 +9,7 @@
     padding: 2rem;
     border: 1px solid #ccc;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    width: 600px;
+    width: 700px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
 /* for content  */
 
 .content {
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     padding: 1rem 0;
     min-height: 100px;
 }
@@ -84,16 +84,19 @@
 }
 
 .button.cancel {
-    background-color: #9e9e9e;
+    background-color: #F9F9F9;
+    color: #000;
 }
 
 .button.cancel:hover {
-    background-color: #757575;
-    transform: scale(1.02);
+    background-color: #ececec; 
+    color: #000;
+    /* transform: scale(1.02); */
+    transition: all 0.2s ease;
 }
 
 .button.save {
-    background-color: #1976d2;
+    background-color: #134994;
 }
 
 .button.save:hover {
@@ -131,10 +134,15 @@
     border: 1px solid #ccc;
     border-radius: 6px;
     outline: none;
+    background-color: #F9F9F9;
     resize: none;
     overflow-y: auto;
     box-sizing: border-box;
     animation: highlight 2s ease-out;
+}
+
+.textArea::placeholder{
+    font-size: .8rem;
 }
 
 .errorText {
@@ -190,7 +198,7 @@
     position: relative;
 } */
 
-/* fallback like Data not found  */
+/* fallback UI like Data not found  */
 
 .noDataContainer {
     display: flex;

@@ -12,7 +12,11 @@ body {
   background-color: #f0f2f5;
   margin: 1rem;
 }
-
+.dialog-varient-txt{
+  padding: 1rem  0;
+  font-size: 1rem;
+  font-weight: 600;
+}
 .buttonvariations {
   display: flex;
   gap: 2rem;

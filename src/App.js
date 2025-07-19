@@ -67,11 +67,14 @@ export default function App() {
             ],
           },
           content: (
-            <TextArea
-              value={text}
-              onChange={setText}
-              setError={setTextError}
-            />
+            <>
+              <p className='dialog-varient-txt'>Remark</p>
+              <TextArea
+                value={text}
+                onChange={setText}
+                setError={setTextError}
+              />
+            </>
           ),
           footer: {
             info: 'All changes will be stored in your browser.',
