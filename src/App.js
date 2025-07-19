@@ -50,7 +50,7 @@ export default function App() {
   };
 
   const buttonVariations = [
-    { label: 'Open Editable Dialogss', icon: <FiEdit />, action: openEditableDialog },
+    { label: 'Open Editable Dialog', icon: <FiEdit />, action: openEditableDialog },
     { label: 'Show Announcement', icon: <FiAlertCircle />, action: openAnnouncementDialog },
     { label: 'Show Stored Data', icon: <FiEye />, action: handleGetStoredData },
   ];
